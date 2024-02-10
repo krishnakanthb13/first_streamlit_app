@@ -20,8 +20,8 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 # Display the table on the page.
 streamlit.dataframe(fruits_to_show)
-streamlit.header('Fruit List')
-streamlit.dataframe(my_fruit_list)
+#streamlit.header('Fruit List')
+#streamlit.dataframe(my_fruit_list)
 
 #New Section to display fruityvice api response
 import requests
