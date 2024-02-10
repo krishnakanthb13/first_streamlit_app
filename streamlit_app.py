@@ -45,3 +45,8 @@ my_cur.execute("SELECT * FROM fruit_load_list")
 my_data_rows = my_cur.fetchall()
 streamlit.header("The Fruit Load List contains:")
 streamlit.dataframe(my_data_rows)
+
+#New Section to display fruityvice api response - Can You Add A Second Text Entry Box? 
+streamlit.header('What fruit would you like to add?')
+fruit_choice = streamlit.text_input('What fruit would you like to add?','Jackfruit')
+streamlit.write('Thanks for adding ', fruit_choice)
