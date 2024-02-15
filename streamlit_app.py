@@ -30,3 +30,5 @@ caption= product_caption
 streamlit.write('Price: ', df2[1])
 streamlit.write('Sizes Available: ',df2[2])
 streamlit.write(df2[3])
+
+# https://learn.snowflake.com/assets/courseware/v1/61010db76c4509fef9ef2de6ecad150f/asset-v1:snowflake+ESS-DLKW+A+type@asset+block/Zenas_Streamlit_App_Cheat_Sheet.pdf
